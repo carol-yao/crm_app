@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CrmInRails</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1><%= link_to "Carol's CRM", root_path, class: "logo"%></h1>
+  </header>
+    </div>
+<nav>
+  <ul>
+    <li><%= link_to "MAIN MENU", root_path %></li>
+    <li><%= link_to "VIEW CONTACTS", contacts_path %></li>
+    <li><%= link_to "ADD A CONTACT", new_contact_path %></li>
+    <li><%= link_to "SEARCH FOR CONTACT", root_path %></li>
+  </ul>
+</nav>
+<%= yield %>
+
+</body>
+</html>

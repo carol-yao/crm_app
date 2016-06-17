@@ -1,0 +1,8 @@
+<div class="contact">
+<h2><%= @contact.first_name %> <%= @contact.last_name %></h2>
+<p><strong>Email:</strong> <%= @contact.email %></p>
+<p><strong>Note:</strong> <br> <%= @contact.note %></p>
+<br>
+<%= link_to "Edit Contact", edit_contact_path(@contact), class: 'button'%>
+<%= link_to "Delete Contact", contact_path(@contact), method: :delete, data: {confirm: "Are you sure you want to delete?"}, class: 'button' %>
+</div>

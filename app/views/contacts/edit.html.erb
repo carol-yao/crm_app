@@ -1,0 +1,24 @@
+<div class="contact">
+<h1>Edit the contact</h1>
+<%= form_for @contact do |f| %>
+  <p>
+    <%= f.label :first_name, class: "fields" %> <br>
+    <%= f.text_field :first_name, class: "text" %>
+  </p>
+  <p>
+    <%= f.label :last_name, class: "fields" %> <br>
+    <%= f.text_field :last_name, class: "text" %>
+  </p>
+  <p>
+    <%= f.label :email, class: "fields" %><br>
+    <%= f.text_field :email, class: "text" %>
+  </p>
+  <p>
+    <%= f.label :note, class: "fields" %> <br>
+    <%= f.text_field :note, class: "text" %>
+  </p>
+  <p>
+    <%= f.submit "Edit Contact", class: "submit" %>
+  </p>
+<% end %>
+</div>

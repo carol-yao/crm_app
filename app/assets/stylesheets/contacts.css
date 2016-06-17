@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.brand {
+  display: block;
+  clear:  both;
+  padding-left: 3%;
+  border-bottom: 1px solid white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poiret One", "Arial", sans-serif;
+}
+
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: grey;
+  padding: 0 10px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+a.logo {
+  color:white;
+}
+a.logo:hover  {
+  color: black;
+}
+
+
+a:hover {
+  color: white;
+}
+
+nav li:hover {
+  background: black;
+}
+
+nav li{
+    list-style-type: none;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+
+}
+
+nav ul {
+  background-color: white;
+  padding: 0px;
+  border: 0;
+  margin: 10% 10%;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.contact_links {
+  padding: 0;
+  margin: 0;
+}
+
+
+a.contact_links {
+  color: white;
+}
+a.contact_links:hover {
+  color: black;
+  font-style: italic;
+}
+
+nav {
+  display: inline-block;
+  padding: 10% 5%;
+  width: 40%;
+
+}
+
+.title {
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 20%;
+  padding-top: 12%;
+  font-size: 50px;
+}
+
+.slogan {
+  display: inline-block;
+  float: right;
+  right: 15%;
+  position: absolute;
+  margin-top: 20%;
+}
+
+.list {
+  list-style: none;
+  padding-left: 10px;
+  color: #E37222;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+
+}
+input {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 10px 20px 10px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.fields {
+  color: white;
+}
+
+.submit {
+  margin-top: 2%;
+}
+
+.text {
+  width: 50%;
+  margin: 0;
+  padding: 1% 2% 1%;
+}
+
+.contact {
+  display: inline-block;
+  width: 40%;
+  margin-top: 7%;
+  float: right;
+  margin-right: 20%;
+}
+
+p {
+  margin-bottom: 2%;
+}
+
+
+.contact_listings {
+  padding-left: 0;
+}
+
+.button {
+  color: white;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+a.button:hover {
+  background: black;
+}
